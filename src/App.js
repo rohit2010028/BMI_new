@@ -28,7 +28,7 @@ function App() {
       } else if (bmi >= 25 && bmi < 30) {
         setMessage('You are a healthy weight')
       } else if(bmi>=30) {
-        setMessage('You are overweight')
+        setMessage('You are over weight')
       }
       else{
        alert('enter valid value')
